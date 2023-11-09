@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/home/redve/Kurser Master/ID2223 Scalable Machine Learning and Deep Learning/Lab1/venv"
+VIRTUAL_ENV="/home/redve/Kurser Master/ID2223 Scalable Machine Learning and Deep Learning/ID2223/Lab1/venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

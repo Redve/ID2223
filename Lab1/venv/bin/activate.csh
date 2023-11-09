@@ -8,7 +8,7 @@ alias deactivate 'test $?_OLD_VIRTUAL_PATH != 0 && setenv PATH "$_OLD_VIRTUAL_PA
 # Unset irrelevant variables.
 deactivate nondestructive
 
-setenv VIRTUAL_ENV "/home/redve/Kurser Master/ID2223 Scalable Machine Learning and Deep Learning/Lab1/venv"
+setenv VIRTUAL_ENV "/home/redve/Kurser Master/ID2223 Scalable Machine Learning and Deep Learning/ID2223/Lab1/venv"
 
 set _OLD_VIRTUAL_PATH="$PATH"
 setenv PATH "$VIRTUAL_ENV/bin:$PATH"

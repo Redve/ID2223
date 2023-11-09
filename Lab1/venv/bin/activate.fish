@@ -33,7 +33,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/home/redve/Kurser Master/ID2223 Scalable Machine Learning and Deep Learning/Lab1/venv"
+set -gx VIRTUAL_ENV "/home/redve/Kurser Master/ID2223 Scalable Machine Learning and Deep Learning/ID2223/Lab1/venv"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH
