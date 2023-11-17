@@ -1,11 +1,11 @@
 import os
 import modal
     
-LOCAL=True
+LOCAL=False
 
 if LOCAL == False:
    stub = modal.Stub()
-   hopsworks_image = modal.Image.debian_slim().pip_install(["hopsworks","joblib","seaborn","sklearn==1.1.1","dataframe-image"])
+   hopsworks_image = modal.Image.debian_slim().pip_install(["hopsworks","joblib","seaborn","scikit-learn==1.3.0","dataframe-image"])
    @stub.function(image=hopsworks_image, schedule=modal.Period(days=1), secret=modal.Secret.from_name("HOPSWORKS_API_KEY"))
    def f():
        g()
@@ -54,7 +54,6 @@ def g():
     img = Image.open(requests.get(label_url, stream=True).raw)            
     img.save("./actual_iris.png")
     dataset_api.upload("./actual_iris.png", "Resources/images", overwrite=True)
-    
     monitor_fg = fs.get_or_create_feature_group(name="iris_predictions",
                                                 version=1,
                                                 primary_key=["datetime"],
