@@ -19,3 +19,5 @@ Link for interactive Wine
 https://huggingface.co/spaces/Redve/Wine_Interactive
 
 Link for daily Wine predictor
+
+https://huggingface.co/spaces/Redve/Daily_Wine
