@@ -36,3 +36,7 @@ https://huggingface.co/spaces/Redve/BengaliModel
 
 For Task2
 We upped the amount of steps to see if we got a better score.
+
+The Wer score went down to 42.2126 and the validation loss went up to 0.2751
+
+We would want to train the model on the whole dataset however this was restricted due to colab
