@@ -43,3 +43,4 @@ We would want to train the model on the whole dataset however this was restricte
 
 # Project
 
+For project and README please visit: https://github.com/Redve/ID2223/tree/main/Project
